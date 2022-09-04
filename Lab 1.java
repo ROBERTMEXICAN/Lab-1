@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Random;
 
 public class Main {
     public static void main(String[] args){
@@ -11,9 +10,8 @@ public class Main {
             n -= 2;
         }
         double[] x = new double[15];
-        Random random = new Random();
         for(int i = 0; i <= 14; i++){
-            x[i] = random.nextDouble(26) - 10;
+            x[i] = Math.random() * 26 - 10;
         }
         List<Integer> nums = new ArrayList<>(List.of(1, 7, 11, 15, 19));
         double[][] t = new double[10][15];
