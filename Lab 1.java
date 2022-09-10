@@ -3,7 +3,7 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args){
-        float[] f = new float[10];
+        float[] f = new float[10];#азат, капец ты лошара, тебе вообще заняться нечем? Иди лучше с бабами туси, опездал.
         float n = 19;
         for(int i = 0; i <= 9; i++) {
             f[i] = n;
